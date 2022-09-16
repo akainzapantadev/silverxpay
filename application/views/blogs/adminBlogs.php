@@ -14,13 +14,11 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/additional-methods.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
-    <script src="assets/Thirdparty/js-toast-master/toast.min.js"></script>
     <script src="assets/js/common.js"></script>
     <script src="assets/js/adminblogs.js"></script>
     <script src="assets/js/md5.js"></script>
-    <link href="assets/Thirdparty/fontawesome6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/blogs.css">
-    <link rel="icon" href="assets/imgs/icon-text.png" type="image/gif">
+    <link rel="icon" href="assets/images/icon-text.png" type="image/gif">
     <title class="main-color">Admin Blogs</title>
   </head>
   <style>
@@ -30,7 +28,7 @@
   </style>
   <body class="m-d-none">
   <div class="container py-5">
-    <div class="my-5"><span class="display-1">Safelypal Blogs admin</span></div>
+    <div class="my-5"><span class="display-1">Silverxpay Blogs admin</span></div>
     <div class="my-2"><span class="h2">Blogs <span id="countBlog_id"></span></span></div>
     <div class="input-group mb-3">
       <input id="title_input" type="text" class="form-control" placeholder="Title" >

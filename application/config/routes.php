@@ -35,6 +35,9 @@ $route['admin/loadFaq'] = 'admin/loadFaq';
 $route['uploadBlogImage'] = 'main/uploadBlogImage';
 $route['deleteBlogImageBeforeUpdatingBlogDetails'] = 'blogs/deleteBlogImageBeforeUpdatingBlogDetails';
 
+// library
+$route['upload_view'] = 'library/upload';
+$route['upload_file'] = 'library/upload/do_upload';
 
 $route['blogs/(:any)'] = 'blogs/blogLoad/$1';
 // ------------------------------------------------------

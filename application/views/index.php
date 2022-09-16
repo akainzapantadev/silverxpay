@@ -40,6 +40,7 @@
   
 
   <!-- scripts -->
+		<script src="assets/Others/vendor/jquery/jquery.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/common.js"></script>
     <script src="assets/Others/js/jQuery.js"></script>
@@ -48,8 +49,18 @@
     <script src="assets/Others/fontawesome6/js/all.js"></script>
     <script src="assets/Others/vendor/bootbox/bootbox.min.js"></script>
     <script src="assets/Others/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/Others/vendor/jquery/jquery.min.js"></script>
-  
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<!-- Vendor JS Files -->
+		<script src="assets/Others/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/Others/vendor/aos/aos.js"></script>
+		<script src="assets/Others/vendor/glightbox/js/glightbox.min.js"></script>
+		<script src="assets/Others/vendor/swiper/swiper-bundle.min.js"></script>
+		<script src="assets/Others/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+		<script src="assets/Others/vendor/php-email-form/validate.js"></script>
+
+		<!-- Template Main JS File -->
+		<script src="assets/js/main.js"></script>
+
 	</head>
 
 	<body class="page-index">
@@ -469,126 +480,10 @@
 						<h2>Recent Blog Posts</h2>
 					</div>
 
-					<div class="row gy-5">
-						<div
-							class="col-xl-3 col-md-6"
-							data-aos="fade-up"
-							data-aos-delay="100"
-						>
-							<div class="post-box">
-								<div class="post-img">
-									<img
-										src="assets/images/blog/blog-1.jpg"
-										class="img-fluid"
-										alt=""
-									/>
-								</div>
-								<div class="meta">
-									<span class="post-date">Tue, December 12</span>
-									<span class="post-author"> / Julia Parker</span>
-								</div>
-								<h3 class="post-title">
-									Eum ad dolor et. Autem aut fugiat debitis
-								</h3>
-								<p>
-									Illum voluptas ab enim placeat. Adipisci enim velit nulla. Vel
-									omnis laudantium. Asperiores eum ipsa est officiis. Modi qui
-									magni est...
-								</p>
-								<a href="blog-details.html" class="readmore stretched-link"
-									><span>Read More</span><i class="bi bi-arrow-right"></i
-								></a>
-							</div>
-						</div>
+					<div id="blogListContainer" class="row gy-5">
 
-						<div
-							class="col-xl-3 col-md-6"
-							data-aos="fade-up"
-							data-aos-delay="200"
-						>
-							<div class="post-box">
-								<div class="post-img">
-									<img
-										src="assets/images/blog/blog-2.jpg"
-										class="img-fluid"
-										alt=""
-									/>
-								</div>
-								<div class="meta">
-									<span class="post-date">Fri, September 05</span>
-									<span class="post-author"> / Mario Douglas</span>
-								</div>
-								<h3 class="post-title">
-									Et repellendus molestiae qui est sed omnis
-								</h3>
-								<p>
-									Voluptatem nesciunt omnis libero autem tempora enim ut ipsam
-									id. Odit quia ab eum assumenda. Quisquam omnis doloribus...
-								</p>
-								<a href="blog-details.html" class="readmore stretched-link"
-									><span>Read More</span><i class="bi bi-arrow-right"></i
-								></a>
-							</div>
-						</div>
-
-						<div
-							class="col-xl-3 col-md-6"
-							data-aos="fade-up"
-							data-aos-delay="300"
-						>
-							<div class="post-box">
-								<div class="post-img">
-									<img
-										src="assets/images/blog/blog-3.jpg"
-										class="img-fluid"
-										alt=""
-									/>
-								</div>
-								<div class="meta">
-									<span class="post-date">Tue, July 27</span>
-									<span class="post-author"> / Lisa Hunter</span>
-								</div>
-								<h3 class="post-title">Quia assumenda est et veritati</h3>
-								<p>
-									Quia nam eaque omnis explicabo similique eum quaerat similique
-									laboriosam. Quis omnis repellat sed quae consectetur magnam...
-								</p>
-								<a href="blog-details.html" class="readmore stretched-link"
-									><span>Read More</span><i class="bi bi-arrow-right"></i
-								></a>
-							</div>
-						</div>
-
-						<div
-							class="col-xl-3 col-md-6"
-							data-aos="fade-up"
-							data-aos-delay="400"
-						>
-							<div class="post-box">
-								<div class="post-img">
-									<img
-										src="assets/images/blog/blog-4.jpg"
-										class="img-fluid"
-										alt=""
-									/>
-								</div>
-								<div class="meta">
-									<span class="post-date">Tue, Sep 16</span>
-									<span class="post-author"> / Mario Douglas</span>
-								</div>
-								<h3 class="post-title">
-									Pariatur quia facilis similique deleniti
-								</h3>
-								<p>
-									Et consequatur eveniet nam voluptas commodi cumque ea est ex.
-									Aut quis omnis sint ipsum earum quia eligendi...
-								</p>
-								<a href="blog-details.html" class="readmore stretched-link"
-									><span>Read More</span><i class="bi bi-arrow-right"></i
-								></a>
-							</div>
-						</div>
 					</div>
+
 				</div>
 			</section>
 			<!-- End Recent Blog Posts Section -->
@@ -596,78 +491,7 @@
 		<!-- End #main -->
 
 		<!-- ======= Footer ======= -->
-		<footer id="footer" class="footer">
-			<div class="footer-content">
-				<div class="container">
-					<div class="row gy-4">
-						<div class="col-lg-5 col-md-12 footer-info">
-							<a href="index.html" class="logo d-flex align-items-center">
-								<span>Silverxpay</span>
-							</a>
-							<p>
-								Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-								nada terra videa magna derita valies darta donna mare fermentum
-								iaculis eu non diam phasellus.
-							</p>
-							<div class="social-links d-flex mt-3">
-								<a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-								<a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-								<a href="#" class="instagram"
-									><i class="bi bi-instagram"></i
-								></a>
-								<a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-md-3 footer-links">
-							<h4>Useful Links</h4>
-							<ul>
-								<li><i class="bi bi-dash"></i> <a href="#">Home</a></li>
-								<li><i class="bi bi-dash"></i> <a href="#">About us</a></li>
-								<li><i class="bi bi-dash"></i> <a href="#">Services</a></li>
-								<li>
-									<i class="bi bi-dash"></i> <a href="#">Terms of service</a>
-								</li>
-								<li>
-									<i class="bi bi-dash"></i> <a href="#">Privacy policy</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-lg-2 col-md-1 footer-links">
-							<h4>Mentions</h4>
-								<ul>
-									<li>
-										<a href="https://bootstrapmade.com/">BootstrapMade</a>
-									</li>
-									<li>
-										</i> <a href="#">Arldev</a>
-									</li>
-								</ul>
-							</div>
-						<div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-							<h4>Contact Us</h4>
-							<p>
-								A108 Adam Street <br />
-								New York, NY 535022<br />
-								United States <br /><br />
-								<strong>Phone:</strong> +1 5589 55488 55<br />
-								<strong>Email:</strong> info@example.com<br />
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="footer-legal">
-				<div class="container">
-					<div class="copyright">
-						&copy; Copyright <strong><span>Silverxpay</span></strong
-						>. All Rights Reserved
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- End Footer -->
+    <div class="footer"></div>
 		<!-- End Footer -->
 
 		<a
@@ -678,15 +502,43 @@
 
 		<div id="preloader"></div>
 
-		<!-- Vendor JS Files -->
-		<script src="assets/Others/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-		<script src="assets/Others/vendor/aos/aos.js"></script>
-		<script src="assets/Others/vendor/glightbox/js/glightbox.min.js"></script>
-		<script src="assets/Others/vendor/swiper/swiper-bundle.min.js"></script>
-		<script src="assets/Others/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-		<script src="assets/Others/vendor/php-email-form/validate.js"></script>
 
-		<!-- Template Main JS File -->
-		<script src="assets/js/main.js"></script>
 	</body>
 </html>
+<script>
+	displayFooter()
+	var blogsList = ajaxShortLink('getAll',{table:'blogs_tbl',sortBy:'id',sortOrder:'desc'})
+
+	for (let index = 0; index < 4; index++) {
+		$('#blogListContainer').append(
+							'<div'+
+							'	class="col-xl-3 col-md-6"'+
+							'	data-aos="fade-up"'+
+							'	data-aos-delay="100"'+
+							'>'+
+							'	<div class="post-box">'+
+							'		<div class="post-img">'+
+							'			<img'+
+							'				src="'+blogsList[index].blogImage+'"'+
+							'				class="img-fluid"'+
+							'				alt=""'+
+							'			/>'+
+							'		</div>'+
+							'		<div class="meta">'+
+							'			<span class="post-author"> '+blogsList[index].author+'</span>'+
+							'			<span class="post-date"> / '+blogsList[index].dateCreated+'</span>'+
+							'		</div>'+
+							'		<h3 class="post-title">'+
+							'			'+blogsList[index].title+'</span>'+
+							'		</h3>'+
+							'		<p>'+
+							'			'+blogsList[index].desc+
+							'		</p>'+
+							'		<a href="blogs/'+blogsList[index].routeLink+'" class="readmore stretched-link"'+
+							'			><span>Read More</span><i class="bi bi-arrow-right"></i'+
+							'		></a>'+
+							'	</div>'+
+							'</div>'
+		);
+	}
+</script>

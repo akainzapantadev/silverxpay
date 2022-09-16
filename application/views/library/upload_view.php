@@ -17,7 +17,7 @@
               }
             }
         </script>
-      <!-- <button onclick="upload()" class="btn-transparent" type="button" id="button_upload">upload</button> -->
+      <button onclick="upload()" class="btn-transparent" type="button" id="button_upload">upload</button>
         <script>
           function upload(){
             var uploaderName = $('#blogImage').attr('name')
@@ -26,6 +26,13 @@
             
             var imageUploadFormData = new FormData();
             imageUploadFormData.append(uploaderName,uploaderFile,uploaderFileName);
+
+            // var object = {};
+            // imageUploadFormData.forEach(function(value, key){
+            //     object[key] = value;
+            // });
+            // var json = JSON.stringify(object);
+            // console.log(json);
             var upload = backendHandleFormData('upload_file',imageUploadFormData);
           }
         </script>
@@ -35,9 +42,9 @@
 
 
 <!-- load this on other page -->
-<script>
+<!-- <script>
   $(function(){
     $("#upload_view").load("upload_view"); 
   });
-</script>
+</script> -->
 <!-- load this on other page -->

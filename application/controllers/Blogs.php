@@ -11,9 +11,10 @@ class blogs extends MY_Controller {
 	{
 		$this->load->view('blogs/adminBlogs');
 	}
+
 	public function blogs(){
 		$res = $this->_getRecordsData(
-			$selectfields = array("*,DATE_FORMAT(dateCreated, '%W %M %e %Y') AS dateCreated"), 
+			$selectfields = array("*,DATE_FORMAT(dateCreated, '%W %M %e %Y') AS dateCreated,"), 
       $tables = array('blogs_tbl'),
       $fieldName = null, 
       $where = null, 
@@ -31,8 +32,9 @@ class blogs extends MY_Controller {
 			'res' => $res,
 		);
 		$this->load->view('blogs',$data);
-		
 	}
+	
+	
 	public function countBlogs(){
 		$res = $this->_getRecordsData(
 			$selectfields = array("*,DATE_FORMAT(dateCreated, '%W %M %e %Y') AS dateCreated"), 

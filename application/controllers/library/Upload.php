@@ -7,9 +7,14 @@ class upload extends CI_Controller {
 		$this->load->view('library/upload_view');
 	}
 
+  public function __construct(){
+    parent::__construct();
+    $this->load->helper(array('url','form'));
+  }
+
   function do_upload(){
     // print_r($_FILES);
-    $config['upload_path']          = './assets/imgs/blogimages/';
+    $config['upload_path']          = './assets/images/blogimages/';
     $config['allowed_types']        = 'gif|jpg|png|jpeg';
     // $config['max_size']             = 100;
     // $config['max_width']            = 1024;
