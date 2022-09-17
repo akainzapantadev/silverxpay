@@ -126,7 +126,7 @@ class blogs extends MY_Controller {
 			// echo json_encode(array($slug,$res));
     }
 		public function addBlog(){
-			$mainurl = 'safelypal.com/blogs/';
+			$mainurl = 'silverxpay.info/blogs/';
 
 			$title = $_GET['title'];
 			$sdesc = $_GET['sdesc'];
@@ -147,6 +147,7 @@ class blogs extends MY_Controller {
 				'desc'=>$sdesc,
 				'routeLink'=>$routeLink,
 				'author'=>$author,
+				'blogImage'=>$blogImage,
 				'dateCreated' => $this->_getTimeStamp24Hours(),
 			);
 

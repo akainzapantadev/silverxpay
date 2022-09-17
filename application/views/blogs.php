@@ -86,7 +86,6 @@
         <ul>
           <li><a href="main">Home</a></li>
           <li><a href="blogs" class="active">Blog</a></li>
-          <li><a href="contact">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 

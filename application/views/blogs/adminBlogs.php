@@ -178,7 +178,7 @@
     
     var x = $('#title_input').val().split(' ').join('-');
     $('#routeLink_input').val(x)
-    $('#author_input').val('SafelyPal Team')
+    $('#author_input').val('Silverxpay')
   });
 
     $(function(){

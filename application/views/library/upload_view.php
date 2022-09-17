@@ -17,7 +17,7 @@
               }
             }
         </script>
-      <button onclick="upload()" class="btn-transparent" type="button" id="button_upload">upload</button>
+      <!-- <button onclick="upload()" class="btn-transparent" type="button" id="button_upload">upload</button> -->
         <script>
           function upload(){
             var uploaderName = $('#blogImage').attr('name')

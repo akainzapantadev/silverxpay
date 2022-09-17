@@ -150,7 +150,7 @@ function editblog(id){
   function deleteblog(id){
 
   var getImagePath = ajaxShortLink("getBlog",{"id":id})
-  var x = prompt("Kindly input 'bwakanang delete this' to proceed", "")
+  var x = window.prompt("Kindly input 'bwakanang delete this' to proceed", "")
 
   if(x=='bwakanang delete this'){
     ajaxShortLink("deleteBlog",{"id":id,"ImagePath":getImagePath.blogImage})

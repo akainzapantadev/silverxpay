@@ -93,18 +93,16 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-4">
-						<h2 data-aos="fade-up">Lorem ipsum text here</h2>
+						<h2 data-aos="fade-up">Silverxpay</h2>
 						<blockquote data-aos="fade-up" data-aos-delay="100">
 							<p>
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-								Perspiciatis cum recusandae eum laboriosam voluptatem
-								repudiandae odio, vel exercitationem officiis provident minima.
+							SilverxPay is an easy and practical cryptocurrency wallet application which does not requires much time to do the tasks to make profit online.
 							</p>
 						</blockquote>
 						<div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-							<a href="#about" class="btn-get-started">Get Started</a>
+							<a href="http://silverxpay.com" target = "_blank" class="btn-get-started">Get Started</a>
 							<a
-								href="https://www.youtube.com/watch?v=Zwq43Go1jYI&list=RDZwq43Go1jYI&start_radio=1"
+								href=""
 								class="glightbox btn-watch-video d-flex align-items-center"
 								><i class="bi bi-play-circle"></i><span>Watch Video</span></a
 							>
@@ -120,7 +118,7 @@
 			<section id="why-us" class="why-us">
 				<div class="container" data-aos="fade-up">
 					<div class="section-header">
-						<h2>Why use silverxpay</h2>
+						<h2>Why SILVERXPAY</h2>
 					</div>
 
 					<div class="row g-0" data-aos="fade-up" data-aos-delay="200">
@@ -133,18 +131,14 @@
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
 										<div class="item">
-											<h3 class="mb-3">You can earn money</h3>
+											<h3 class="mb-3">Earn more with less effort!</h3>
 											<h4 class="mb-3">
-												Optio reiciendis accusantium iusto architecto at quia
-												minima maiores quidem, dolorum.
+												<a href="#" ><code style="color:var(--primary-color)!important">Click here to learn how</code></a>
 											</h4>
 											<p>
-												Lorem ipsum dolor sit amet consectetur adipisicing elit.
-												Repellendus, ipsam perferendis asperiores explicabo vel
-												tempore velit totam, natus nesciunt accusantium dicta
-												quod quibusdam ipsum maiores nobis non, eum. Ullam
-												reiciendis dignissimos laborum aut, magni voluptatem
-												velit doloribus quas sapiente optio.
+											Silverxpay offers reasonable benefits that only 
+											requires minimal time to do task such as mining, playing or simply 
+											by investing cryptocurrency.
 											</p>
 										</div>
 									</div>
@@ -153,35 +147,14 @@
 									<div class="swiper-slide">
 										<div class="item">
 											<h3 class="mb-3">
-												Unde perspiciatis ut repellat dolorem
+												Learn how to use the app
 											</h3>
 											<h4 class="mb-3">
-												Amet cumque nam sed voluptas doloribus iusto. Dolorem
-												eos aliquam quis.
+											<a href="#" ><code style="color:var(--primary-color)!important">Click here to learn how</code></a>
 											</h4>
 											<p>
-												Dolorem quia fuga consectetur voluptatem. Earum
-												consequatur nulla maxime necessitatibus cum accusamus.
-												Voluptatem dolorem ut numquam dolorum delectus autem
-												veritatis facilis. Et ea ut repellat ea. Facere est
-												dolores fugiat dolor.
-											</p>
-										</div>
-									</div>
-									<!-- End slide item -->
-
-									<div class="swiper-slide">
-										<div class="item">
-											<h3 class="mb-3">Aliquid non alias minus</h3>
-											<h4 class="mb-3">
-												Necessitatibus voluptatibus explicabo dolores a vitae
-												voluptatum.
-											</h4>
-											<p>
-												Neque voluptates aut. Soluta aut perspiciatis porro
-												deserunt. Voluptate ut itaque velit. Aut consectetur
-												voluptatem aspernatur sequi sit laborum. Voluptas enim
-												dolorum fugiat aut.
+												Silverxpay has user friendly interface and easy to use so you dont have to
+												learn complicated things and do easy trading on whenever you can.
 											</p>
 										</div>
 									</div>
@@ -190,21 +163,16 @@
 									<div class="swiper-slide">
 										<div class="item">
 											<h3 class="mb-3">
-												Necessitatibus suscipit non voluptatem quibusdam
+												Easy to use
 											</h3>
-											<h4 class="mb-3">
-												Tempora quos est ut quia adipisci ut voluptas. Deleniti
-												laborum soluta nihil est. Eum similique neque autem ut.
-											</h4>
 											<p>
-												Ut rerum et autem vel. Et rerum molestiae aut sit vel
-												incidunt sit at voluptatem. Saepe dolorem et sed
-												voluptate impedit. Ad et qui sint at qui animi animi
-												rerum.
+											SilverxPay is an application that offers reasonable benefits that only requires 
+											minimal time to do task such as mining, playing or simply by investing cryptocurrency.
 											</p>
 										</div>
 									</div>
 									<!-- End slide item -->
+
 								</div>
 								<div class="swiper-pagination"></div>
 							</div>
@@ -234,11 +202,13 @@
 							</div>
 							<div>
 								<h4 class="title">
-									<a href="#" class="stretched-link">Lorem Ipsum</a>
+									<a  class="stretched-link">Mining</a>
 								</h4>
 								<p class="description">
-									Voluptatum deleniti atque corrupti quos dolores et quas
-									molestias excepturi sint occaecati cupiditate non provident
+								Players can choose any coin to mine, each coin has a different minimum purchase 
+								amount and a different finance period, so players can purchase it according to their own situation. 
+								<!-- Once purchased, you can view the number of days to purchase the coins and the returns in the finance details. 
+								Upon completion of the cycle, a lump sum will be credited to the player's account. -->
 								</p>
 							</div>
 						</div>
@@ -254,35 +224,16 @@
 							</div>
 							<div>
 								<h4 class="title">
-									<a href="#" class="stretched-link">Dolor Sitema</a>
+									<a  class="stretched-link">Contracts</a>
 								</h4>
 								<p class="description">
-									Minim veniam, quis nostrud exercitation ullamco laboris nisi
-									ut aliquip ex ea commodo consequat tarad limino ata
+								The two-way trading game of purchasing up and selling down foretells the direction of digital money. Users may decide whether 
+								to purchase up or down by analyzing the market's ups and downs over a certain period of time.
 								</p>
 							</div>
 						</div>
 						<!-- End Service Item -->
 
-						<div
-							class="col-lg-4 col-md-6 service-item d-flex"
-							data-aos="fade-up"
-							data-aos-delay="300"
-						>
-							<div class="icon flex-shrink-0">
-								<i class="bi bi-bar-chart" style="color: #d90769"></i>
-							</div>
-							<div>
-								<h4 class="title">
-									<a href="#" class="stretched-link">Sed ut perspiciatis</a>
-								</h4>
-								<p class="description">
-									Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur
-								</p>
-							</div>
-						</div>
-						<!-- End Service Item -->
 
 						<div
 							class="col-lg-4 col-md-6 service-item d-flex"
@@ -294,51 +245,11 @@
 							</div>
 							<div>
 								<h4 class="title">
-									<a href="#" class="stretched-link">Magni Dolores</a>
+									<a  class="stretched-link">Guess The Deal</a>
 								</h4>
 								<p class="description">
-									Excepteur sint occaecat cupidatat non proident, sunt in culpa
-									qui officia deserunt mollit anim id est laborum
-								</p>
-							</div>
-						</div>
-						<!-- End Service Item -->
-
-						<div
-							class="col-lg-4 col-md-6 service-item d-flex"
-							data-aos="fade-up"
-							data-aos-delay="500"
-						>
-							<div class="icon flex-shrink-0">
-								<i class="bi bi-brightness-high" style="color: #f5cf13"></i>
-							</div>
-							<div>
-								<h4 class="title">
-									<a href="#" class="stretched-link">Nemo Enim</a>
-								</h4>
-								<p class="description">
-									At vero eos et accusamus et iusto odio dignissimos ducimus qui
-									blanditiis praesentium voluptatum deleniti atque
-								</p>
-							</div>
-						</div>
-						<!-- End Service Item -->
-
-						<div
-							class="col-lg-4 col-md-6 service-item d-flex"
-							data-aos="fade-up"
-							data-aos-delay="600"
-						>
-							<div class="icon flex-shrink-0">
-								<i class="bi bi-calendar4-week" style="color: #1335f5"></i>
-							</div>
-							<div>
-								<h4 class="title">
-									<a href="#" class="stretched-link">Eiusmod Tempor</a>
-								</h4>
-								<p class="description">
-									Et harum quidem rerum facilis est et expedita distinctio. Nam
-									libero tempore, cum soluta nobis est eligendi
+								In this game, you must predict the final three numbers that will be picked at random. 
+								The participants will have the choice of placing bets ranging in size from modest to large.
 								</p>
 							</div>
 						</div>
@@ -353,13 +264,12 @@
 				<div class="container" data-aos="fade-up">
 					<div class="row justify-content-center">
 						<div class="col-lg-6 text-center">
-							<h3>Ut fugiat aliquam aut non</h3>
+							<h3>Start your earning now</h3>
 							<p>
-								Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-								cupidatat non proident.
+							SilverxPay is an easy and practical cryptocurrency wallet application which does not requires much time 
+							to do the tasks to make profit online.
 							</p>
-							<a class="cta-btn" href="#">Call To Action</a>
+							<a class="cta-btn" href="http://silverxpay.com" target = "_blank">Get started</a>
 						</div>
 					</div>
 				</div>
@@ -371,37 +281,22 @@
 				<div class="container" data-aos="fade-up">
 					<div class="row">
 						<div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-							<h3>Powerful Features for <br />Your Business</h3>
+							<h3>Silverxpay Features for <br /> daily earnings</h3>
 
 							<div class="row gy-4">
 								<div class="col-md-6">
 									<div class="icon-list d-flex">
 										<i class="ri-store-line" style="color: #ffbb2c"></i>
-										<span>Easy Cart Features</span>
+										<span>Easy interface</span>
 									</div>
 								</div>
 								<!-- End Icon List Item-->
 
-								<div class="col-md-6">
-									<div class="icon-list d-flex">
-										<i class="ri-bar-chart-box-line" style="color: #5578ff"></i>
-										<span>Sit amet consectetur adipisicing</span>
-									</div>
-								</div>
-								<!-- End Icon List Item-->
 
 								<div class="col-md-6">
 									<div class="icon-list d-flex">
 										<i class="ri-calendar-todo-line" style="color: #e80368"></i>
-										<span>Ipsum Rerum Explicabo</span>
-									</div>
-								</div>
-								<!-- End Icon List Item-->
-
-								<div class="col-md-6">
-									<div class="icon-list d-flex">
-										<i class="ri-paint-brush-line" style="color: #e361ff"></i>
-										<span>Easy Cart Features</span>
+										<span>Secured payment</span>
 									</div>
 								</div>
 								<!-- End Icon List Item-->
@@ -409,15 +304,7 @@
 								<div class="col-md-6">
 									<div class="icon-list d-flex">
 										<i class="ri-database-2-line" style="color: #47aeff"></i>
-										<span>Easy Cart Features</span>
-									</div>
-								</div>
-								<!-- End Icon List Item-->
-
-								<div class="col-md-6">
-									<div class="icon-list d-flex">
-										<i class="ri-gradienter-line" style="color: #ffa76e"></i>
-										<span>Sit amet consectetur adipisicing</span>
+										<span>Fast processes</span>
 									</div>
 								</div>
 								<!-- End Icon List Item-->
@@ -425,7 +312,7 @@
 								<div class="col-md-6">
 									<div class="icon-list d-flex">
 										<i class="ri-file-list-3-line" style="color: #11dbcf"></i>
-										<span>Ipsum Rerum Explicabo</span>
+										<span>User friendly</span>
 									</div>
 								</div>
 								<!-- End Icon List Item-->
@@ -433,7 +320,7 @@
 								<div class="col-md-6">
 									<div class="icon-list d-flex">
 										<i class="ri-base-station-line" style="color: #ff5828"></i>
-										<span>Easy Cart Features</span>
+										<span>247 Support</span>
 									</div>
 								</div>
 								<!-- End Icon List Item-->
@@ -446,7 +333,7 @@
 						>
 							<div class="phone-wrap">
 								<img
-									src="assets/images/iphone.png"
+									src="assets/images/silverxpay-mobile.png"
 									alt="Image"
 									class="img-fluid"
 								/>
@@ -459,14 +346,23 @@
 					<div class="container" data-aos="fade-up" data-aos-delay="300">
 						<div class="row">
 							<div class="col-md-6">
-								<h4>Labore Sdio Lidui<br />Bonde Naruto</h4>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-									Numquam nostrum molestias doloremque quae delectus odit minima
-									corrupti blanditiis quo animi!
-								</p>
-								<a href="#about" class="btn-get-started">Get Started</a>
-							</div>
+							<div class="reply-form">
+
+                <h4>Leave a Reply</h4>
+                <p>Your email address will not be published. </p>
+
+                    <div class="form-group">
+											<input class="form-control" id="name_contactus_input" type="text" placeholder="Name" data-sb-validations="required"/>
+                    </div>
+										<div class="form-group">
+											<input class="form-control" id="emailaddress_contactus_input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" type="email" placeholder="Email Address" data-sb-validations="required, email"/>
+                    </div>
+                    <div class="form-group">
+											<textarea class="form-control" id="message_contactus_input" type="text" placeholder="Message" style="height: 5rem;" data-sb-validations="required"></textarea>
+                    </div>
+                  </div>
+								<a onclick="contactus_()" class="btn-get-started m-cursor-pointer">Submit</a>
+
 						</div>
 					</div>
 				</div>
@@ -541,4 +437,42 @@
 							'</div>'
 		);
 	}
+
+	function contactus_(){
+    var name = $('#name_contactus_input').val()
+    var email = $('#emailaddress_contactus_input').val()
+    var message = $('#message_contactus_input').val()
+
+    var data = [
+      {
+        name: "name",
+        value: name
+      },
+      {
+        name: "emailaddress",
+        value: email
+      },
+      {
+        name: "message",
+        value: message
+      }
+    ]
+
+    if(name==''||email==''||message==''){
+      alert('please fill out fields')
+    }else{
+      var res = ajaxShortLink('main/insertContactUs',data);
+      console.log(res);
+
+      if(res==1){
+        alert('Thank you for messaging us!')
+      }else{
+        alert('Submit error, please try again')
+      }
+
+      $('#name_contactus_input').val('')
+      $('#emailaddress_contactus_input').val('')
+      $('#message_contactus_input').val('')
+    }
+  }
 </script>

@@ -20,6 +20,8 @@ $route['deleteID'] = 'main/deleteID';
 // ------------------------------------------------------
 // ---------------- CUSTOM ------------------------------
 // ------------------------------------------------------
+$route['sitemap.xml'] = 'main/sitemap';
+$route['robots.txt'] = 'main/robots';
 $route['quickLoadPage'] = 'main/quickLoadPage';
 // blogs
 $route['blogs'] = 'blogs/blogs';

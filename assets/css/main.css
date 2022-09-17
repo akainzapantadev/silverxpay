@@ -2082,7 +2082,7 @@ section {
 }
 
 .footer .footer-content {
-	background-color: #f7f9fc;
+	background-color: var(--color-secondary);
 	background-size: contain;
 	padding: 60px 0 30px 0;
 }
@@ -2105,7 +2105,7 @@ section {
 	font-size: 30px;
 	font-weight: 700;
 	letter-spacing: 1px;
-	color: var(--color-secondary);
+	color: white;
 	font-family: var(--font-secondary);
 	margin-top: 3px;
 }
@@ -2114,7 +2114,7 @@ section {
 	font-size: 15px;
 	margin-bottom: 0;
 	font-family: var(--font-primary);
-	color: var(--color-secondary);
+	color: white;
 }
 
 .footer .footer-content .social-links a {
@@ -2123,13 +2123,14 @@ section {
 	display: inline-block;
 	width: 32px;
 	height: 32px;
-	color: rgba(27, 47, 69, 0.5);
+	/* color: rgba(27, 47, 69, 0.5); */
+	color: var(--color-default);
 	margin-right: 10px;
 	transition: 0.3s;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--color-primary);
+	background-color: var(--color-secondary);
 	color: #fff;
 	border-radius: 50px;
 }
@@ -2141,7 +2142,7 @@ section {
 .footer .footer-content h4 {
 	font-size: 16px;
 	font-weight: bold;
-	color: #29486a;
+	color: white;
 	position: relative;
 	padding-bottom: 12px;
 }
@@ -2174,7 +2175,7 @@ section {
 }
 
 .footer .footer-content .footer-links ul a {
-	color: #31547c;
+	color: #b4b4b4;
 	transition: 0.3s;
 	display: inline-block;
 	line-height: 1;
@@ -2186,17 +2187,17 @@ section {
 
 .footer .footer-content .footer-contact p {
 	line-height: 26px;
-	color: var(--color-secondary);
+	color: white;
 }
 
 .footer .footer-legal {
-	background: #fff;
+	background: var(--color-secondary);
 	padding: 30px 0;
 }
 
 .footer .footer-legal .copyright {
 	text-align: center;
-	color: var(--color-secondary);
+	color: white;
 }
 
 .footer .footer-legal .credits {
@@ -2204,4 +2205,8 @@ section {
 	text-align: center;
 	font-size: 13px;
 	color: var(--color-secondary);
+}
+
+.m-cursor-pointer {
+	cursor: pointer;
 }

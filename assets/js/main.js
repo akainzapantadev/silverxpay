@@ -243,35 +243,28 @@ function displayFooter(){
     '    <div class="container">'+
     '      <div class="row gy-4">'+
     '        <div class="col-lg-5 col-md-12 footer-info">'+
-    '          <a href="index.html" class="logo d-flex align-items-center">'+
+    '          <a href="main" class="logo d-flex align-items-center">'+
     '            <span>Silverxpay</span>'+
     '          </a>'+
     '          <p>'+
-    '            Cras fermentum odio eu feugiat lide par naso tierra. Justo eget'+
-    '            nada terra videa magna derita valies darta donna mare fermentum'+
-    '            iaculis eu non diam phasellus.'+
+    '            SilverxPay is an easy and practical cryptocurrency wallet application which does not requires much time to do the tasks to make profit online.'+
     '          </p>'+
-    '          <div class="social-links d-flex mt-3">'+
-    '            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>'+
-    '            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>'+
-    '            <a href="#" class="instagram"'+
-    '              ><i class="bi bi-instagram"></i'+
-    '            ></a>'+
-    '            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>'+
-    '          </div>'+
+    // '          <div class="social-links d-flex mt-3">'+
+    // '            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>'+
+    // '            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>'+
+    // '            <a href="#" class="instagram"'+
+    // '              ><i class="bi bi-instagram"></i'+
+    // '            ></a>'+
+    // '            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>'+
+    // '          </div>'+
     '        </div>'+
     ''+
     '        <div class="col-lg-2 col-md-3 footer-links">'+
-    '          <h4>Useful Links</h4>'+
+    '          <h4>Links</h4>'+
     '          <ul>'+
-    '            <li><i class="bi bi-dash"></i> <a href="#">Home</a></li>'+
-    '            <li><i class="bi bi-dash"></i> <a href="#">About us</a></li>'+
-    '            <li><i class="bi bi-dash"></i> <a href="#">Services</a></li>'+
+    '            <li><i class="bi bi-dash"></i> <a href="main">Home</a></li>'+
     '            <li>'+
-    '              <i class="bi bi-dash"></i> <a href="#">Terms of service</a>'+
-    '            </li>'+
-    '            <li>'+
-    '              <i class="bi bi-dash"></i> <a href="#">Privacy policy</a>'+
+    '              <i class="bi bi-dash"></i> <a href="blogs">Blogs</a>'+
     '            </li>'+
     '          </ul>'+
     '        </div>'+
@@ -289,11 +282,8 @@ function displayFooter(){
     '        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">'+
     '          <h4>Contact Us</h4>'+
     '          <p>'+
-    '            A108 Adam Street <br />'+
-    '            New York, NY 535022<br />'+
-    '            United States <br /><br />'+
-    '            <strong>Phone:</strong> +1 5589 55488 55<br />'+
-    '            <strong>Email:</strong> info@example.com<br />'+
+    '            <strong>Email:</strong> silverxpayofficial@gmail.com<br />'+
+    '            <strong>Instagram:</strong> silverxpayofficial<br />'+
     '          </p>'+
     '        </div>'+
     '      </div>'+
@@ -310,4 +300,42 @@ function displayFooter(){
     '  </div>'+
     '</footer>'
     )
+}
+
+function contactus_(){
+  var name = $('#name_contactus_input').val()
+  var email = $('#emailaddress_contactus_input').val()
+  var message = $('#message_contactus_input').val()
+
+  var data = [
+    {
+      name: "name",
+      value: name
+    },
+    {
+      name: "emailaddress",
+      value: email
+    },
+    {
+      name: "message",
+      value: message
+    }
+  ]
+
+  if(name==''||email==''||message==''){
+    alert('please fill out fields')
+  }else{
+    var res = ajaxShortLink('main/insertContactUs',data);
+    console.log(res);
+
+    if(res==1){
+      alert('Thank you for messaging us!')
+    }else{
+      alert('Submit error, please try again')
+    }
+
+    $('#name_contactus_input').val('')
+    $('#emailaddress_contactus_input').val('')
+    $('#message_contactus_input').val('')
+  }
 }
